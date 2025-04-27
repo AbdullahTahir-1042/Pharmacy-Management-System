@@ -32,7 +32,29 @@ The Address class stores the address information for the pharmacy, including str
 The Order class manages orders, linking customers to the medications they purchased and tracking order details.
 
 👤 Customer Class
+
 The Customer class contains details about customers, including their name, contact information, and order history.
 
 📅 Date Class
+
 The Date class is responsible for managing date-related operations, such as storing and displaying the order date for purchases.
+
+
+Compilation and Execution
+
+  * Prerequisites
+
+     A C++ compiler (e.g., GCC, Clang, MSVC).
+
+     Standard C++ library.
+
+  * Compiling and Running
+
+     To compile the program: Assuming you're using g++, compile the project by running:
+
+     g++ main.cpp Pharmacy.cpp Staff.cpp Medication.cpp Salesman.cpp Address.cpp Order.cpp Customer.cpp Date.cpp -o PharmacyManagementSystem
+
+  * To run the program: After compiling, run the executable:
+
+     ./PharmacyManagementSystem
+
