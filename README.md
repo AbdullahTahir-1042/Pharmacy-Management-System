@@ -41,21 +41,17 @@ The Date class is responsible for managing date-related operations, such as stor
 
 
 
-⚙️ Compilation and Execution
+⚙️ ## Installation and Running
 
-  * Prerequisites
+1. Clone the repository or download the project files.
+2. Open a terminal or command prompt and navigate to the project folder.
+3. Compile the code using the following command:
 
-     A C++ compiler (e.g., GCC, Clang, MSVC).
+   ```bash
+   g++ main.cpp Pharmacy.cpp Staff.cpp Medication.cpp Salesman.cpp Address.cpp Order.cpp Customer.cpp Date.cpp -o PharmacyManagementSystem
 
-     Standard C++ library.
+ 4. To run the program: After compiling, run the executable:
 
-  * Compiling and Running
-
-     To compile the program: Assuming you're using g++, compile the project by running:
-
-     g++ main.cpp Pharmacy.cpp Staff.cpp Medication.cpp Salesman.cpp Address.cpp Order.cpp Customer.cpp Date.cpp -o PharmacyManagementSystem
-
-  * To run the program: After compiling, run the executable:
-
+```bash
      ./PharmacyManagementSystem
 
